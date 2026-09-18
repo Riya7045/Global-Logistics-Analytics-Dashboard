@@ -6,6 +6,17 @@ The pipeline moves data through three stages:
 
 **Python (clean & explore) → SQL Server (star schema & KPI views) → Power BI (dashboard)**
 
+## Business Problem
+
+Late deliveries erode customer trust and drive up cost-to-serve, but without a unified view across shipping modes, regions, and product categories, it's hard to tell *where* the delays are actually coming from or whether premium shipping is worth what it costs.
+
+This project analyzes 180K+ historical orders to answer:
+- Are we meeting on-time delivery (OTD) and on-time-in-full (OTIF) targets, and where are the biggest SLA breaches?
+- Is the premium ("First Class") shipping tier actually delivering faster, or are customers paying more for worse performance?
+- Which regions and product categories are the worst offenders for late/incomplete orders, and are the same issues getting better or worse over time?
+
+The goal is to give supply chain and logistics stakeholders a single dashboard to spot underperforming shipping modes/regions and prioritize where to fix the delivery network.
+
 ## Key Findings
 
 - **First Class shipping has a 100% SLA breach rate and 0% on-time delivery**, despite being the premium tier — a critical pricing-vs-performance misalignment. Standard Class outperforms every other mode with 57.7% OTD and the lowest breach rate (39.8%).
