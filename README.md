@@ -62,10 +62,10 @@ KPI views powering the dashboard:
 
 | Page | Screenshot |
 |---|---|
-| Executive Summary — KPI cards, revenue/profit, OTD & SLA breach by shipping mode | [`page1_executive_summary.png`](Screenshots/page1_executive_summary.png) |
-| Regional Analysis — OTD rate by region, filterable by year and shipping mode | [`page2_regional_analysis.png`](Screenshots/page2_regional_analysis.png) |
-| SLA Heatmap — region × shipping mode breach-rate matrix | [`page3_sla_heatmap.png`](Screenshots/page3_sla_heatmap.png) |
-| Trend Analysis — monthly/quarterly KPI trends | [`page4_trend_analysis.png`](Screenshots/page4_trend_analysis.png) |
+| Executive Summary — KPI cards, revenue/profit, OTD & SLA breach by shipping mode | [`1_summary.png`](Screenshots/1_summary.png) |
+| Regional Analysis — OTD rate by region, filterable by year and shipping mode | [`2_regional_analysis.png`](Screenshots/2_regional_analysis.png) |
+| SLA Heatmap — region × shipping mode breach-rate matrix | [`3_sla.png`](Screenshots/3_sla.png) |
+| Trend Analysis — monthly/quarterly KPI trends | [`4_trend_analysis.png`](Screenshots/4_trend_analysis.png) |
 
 ## Tech Stack
 
